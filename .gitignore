@@ -1,0 +1,33 @@
+# Terraform local state and crash logs
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# Local override files and CLI backup files
+override.tf
+override.tf.json
+*_override.tf
+.terraformrc
+terraform.rc
+
+# Sensitive variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform local plugin dir
+.terraform/
+
+# Local terraform binary (do not commit)
+terraform.exe
+*.exe
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*.suo
+*.user
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
