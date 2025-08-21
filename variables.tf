@@ -40,3 +40,16 @@ variable "location" {
   default     = "East US"
   
 }
+
+variable "storage_account_name" {
+  description = "The name of the Azure Storage account."
+  type        = string
+  default     = "teststorageaccount"
+  
+}
+
+variable "key" {
+  description = "The key for the Azure Storage account."
+  type        = string
+  default     = "testkey"
+}
